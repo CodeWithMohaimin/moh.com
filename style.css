@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.banner{
+    height: 100vh;
+    background-image: url("image/background.png");
+    background-repeat: no-repeat;
+    background-color: aquamarine;
+}
+/* =============================logo======================== */
+.logos{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.logo{
+    margin-top: 30px;
+    width: 100px;
+}
+/* ====================banner texts====================== */
+.bannerText{
+    max-width: 400px;
+    margin-top: 140px;
+}
+.lineSpan{
+    background-color: orange;
+    height: 5px ;
+    width: 250px;
+    display: inline-block;
+    margin: 15px 0;
+}
+/*=========================== button Youtube====================== */
+.buttonClass{
+    outline: none;
+    padding: 10px 35px;
+    background-color: transparent;
+    border: 2px solid orange;
+    margin-top: 15px;
+    font-weight: bold;
+    color: orange;
+}
+.buttonClass:hover{
+    background-color: orange;
+    color: white;
+    transition: all .7s ease;
+}
+
+/* =================Aside nav link bottom================== */
+
+
+#sideNavLinks{
+    width: 250px;
+    height: 100vh;
+    background-color: orange;
+    position: fixed;
+    right: -250px;
+    top: 0;
+    z-index: 2;
+    transition: all .5s ease;
+}
+nav ul li{
+    list-style: none;
+    margin: 50px 5px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover{
+    color: black;
+}
+/*========================= menu buton design ===================== */
+#menuButton{
+    position: fixed;
+    width: 50px;
+    right: 60px;
+    top: 40px;
+    z-index: 2;
+    cursor: pointer;
+}
+
+
+
+
+/*------------=================================== Our First section is add done----======================================================= */
+
+
+
+
+
+
+
+
+
+
+
+
