@@ -78,20 +78,31 @@ nav ul li a:hover{
     z-index: 2;
     cursor: pointer;
 }
-
-
-
-
 /*------------=================================== Our First section is add done----======================================================= */
 
 
-
-
-
-
-
-
-
+/*======================== about section ==================== */
+#about{
+    padding: 100px 0;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.about-left-col{
+    flex-basis: 50%;
+}
+.about-left-col img{
+    width: 100%;
+}
+.about-rightSection{
+    flex-basis: 50%;
+}
+.aboutText{
+    text-align: right;
+    margin-right: 100px;
+    display: inline-block;
+    max-width: 600px;
+}
 
 
 
