@@ -4,7 +4,7 @@
 }
 .banner{
     height: 100vh;
-    background-image: url("image/background.png");
+    background-image: url("image/imagesxypo/2.png");
     background-repeat: no-repeat;
     background-color: aquamarine;
 }
@@ -98,11 +98,67 @@ nav ul li a:hover{
     flex-basis: 50%;
 }
 .aboutText{
-    text-align: right;
+    text-align: center;
     margin-right: 100px;
     display: inline-block;
     max-width: 600px;
 }
+
+/*============================== git hub button ==================== */
+
+.buttonClass2{
+    outline: none;
+    padding: 10px 35px;
+    background-color: transparent;
+    border: 2px solid black;
+    margin-top: 15px;
+    font-weight: bold;
+    color: black;
+}
+.buttonClass2:hover{
+    background-color: black;
+    border-radius: 40px;
+    transition: .7s;
+    color: white;
+}
+/*=========================== linkedin button here in bottom==================== */
+
+.buttonClass3{
+    outline: none;
+    padding: 10px 35px;
+    background-color: transparent;
+    border: 2px solid black;
+    margin-top: 15px;
+    font-weight: bold;
+    color: blueviolet;
+}
+.buttonClass3:hover{
+    background-color: rgb(91, 114, 245);
+    border: 2px solid rgb(91, 114, 245);
+    border-radius: 40px;
+    transition: .7s;
+    color: white;
+}
+
+/*==========================---<<<<<<<<<<<<<<<<<< My own project files >>>>>>>>>>>>>---================ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
