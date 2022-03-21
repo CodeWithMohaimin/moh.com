@@ -1,12 +1,14 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Poppins', sans-serif;
+  
 }
+
 .banner{
     height: 100vh;
-    background-image: url("image/imagesxypo/2.png");
+    background-image: url("image/bannerx\ \(1\).png");
     background-repeat: no-repeat;
-    background-color: aquamarine;
 }
 /* =============================logo======================== */
 .logos{
@@ -16,18 +18,37 @@
 .logo{
     margin-top: 30px;
     width: 100px;
+    cursor: pointer;
+
 }
 /* ====================banner texts====================== */
 .bannerText{
     max-width: 400px;
     margin-top: 140px;
 }
-.lineSpan{
+.bannerText h1{
+    font-size: 38px;
+}
+
+.lineSpan0{
     background-color: orange;
-    height: 5px ;
+    height: 3px ;
     width: 250px;
     display: inline-block;
-    margin: 15px 0;
+    margin: 2px 0;
+}
+.lineSpan2{
+    background-color: orange;
+    height: 2px ;
+    width: 150px;
+    display: inline-block;
+    margin: 1px 0;
+}
+.lineSpan3{
+    background-color: orange;
+    height: 2px ;
+    width: 50px;
+    display: inline-block;
 }
 /*=========================== button Youtube====================== */
 .buttonClass{
@@ -60,7 +81,7 @@
 }
 nav ul li{
     list-style: none;
-    margin: 50px 5px;
+    margin: 50px 20px;
 }
 nav ul li a{
     text-decoration: none;
@@ -98,10 +119,20 @@ nav ul li a:hover{
     flex-basis: 50%;
 }
 .aboutText{
-    text-align: center;
+    text-align: right;
     margin-right: 100px;
     display: inline-block;
     max-width: 600px;
+}
+.aboutText h1{
+    font-size: 35px;
+}
+.aboutText h4{
+    font-size: 22px;
+}
+.aboutText p{
+    padding: 10px 0px;
+    color: gray;
 }
 
 /*============================== git hub button ==================== */
@@ -140,15 +171,41 @@ nav ul li a:hover{
     color: white;
 }
 
-/*==========================---<<<<<<<<<<<<<<<<<< My own project files >>>>>>>>>>>>>---================ */
+/*==========================---<<<<<<<<<<<<<<<<<< feachers >>>>>>>>>>>>>---================ */
 
 
 
+#feachers{
+    padding-top: 100px;
+    padding-bottom: 50px;
+    justify-content: center;
+}
+.feachers-row{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    flex-wrap: wrap;
+}
+.colum{
+   flex-basis: 25%;
+   text-align: center;
+   cursor: pointer;
+}
 
+/*====================== video tag =================== */
 
-
-
-
+.videoTopPaddingText{
+    padding-top: 300px;
+    text-align: center;
+}
+#video{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 200px;
+    padding-top: 100px;
+}
 
 
 
