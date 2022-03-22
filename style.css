@@ -4,11 +4,9 @@
     font-family: 'Poppins', sans-serif;
   
 }
-
 .banner{
     height: 100vh;
     background-image: url("image/bannerx\ \(1\).png");
-    background-repeat: no-repeat;
 }
 /* =============================logo======================== */
 .logos{
@@ -29,7 +27,6 @@
 .bannerText h1{
     font-size: 38px;
 }
-
 .lineSpan0{
     background-color: orange;
     height: 3px ;
@@ -66,10 +63,7 @@
     transition: all .7s ease;
     cursor: pointer;
 }
-
 /* =================Aside nav link bottom================== */
-
-
 #sideNavLinks{
     width: 250px;
     height: 100vh;
@@ -100,8 +94,7 @@ nav ul li a:hover{
     z-index: 2;
     cursor: pointer;
 }
-/*------------=================================== Our First section is add done----======================================================= */
-
+/*------------================= Our First section is add done----======================================================= */
 
 /*======================== about section ==================== */
 #about{
@@ -120,10 +113,10 @@ nav ul li a:hover{
     flex-basis: 50%;
 }
 .aboutText{
-    text-align: right;
-    margin-right: 100px;
+    text-align: center;
     display: inline-block;
-    max-width: 600px;
+    max-width: 400px;
+    margin-left: 50px;
 }
 .aboutText h1{
     font-size: 35px;
@@ -213,6 +206,7 @@ nav ul li a:hover{
 /* -=======================     subscription are         ===================== */
 #contact{
     padding: 100px 100px;
+    margin-left: 100px;
 }
 
 .contactRow{
@@ -257,10 +251,10 @@ label{
 
 /*==================== footer section ====================== */
 #footer{
-    padding: 200px 0;
+    padding: 200px 0 100px 0;
 }
 .containerFooter{
-    padding: 0 100px;
+    padding: 0 50px;
 }
 .footerRow{
     display: flex;
@@ -282,7 +276,7 @@ label{
     text-align: center;
 }
 .logosFotters{
-    margin:0 10px;
+    margin:10px 10px;
     cursor: pointer;
 }
 .footerText small:hover{
@@ -293,11 +287,210 @@ label{
     color: orangered;
     cursor: pointer;
 }
+.rightlogo img{
+    cursor: pointer;
+}
+
+
+/*======================== socialLinksIcon ================ */
+
+.socialLinksIcon{
+    position: fixed;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+.socialLinksIcon img{
+    width: 30px;
+    display: block;
+    margin: 20px 0px 0px 20px;
+    cursor: pointer;
+}
 
 
 
+/*============ media quary ============ */
+@media only screen and (max-width:777px){
+    .banner{
+        background-image: none;
+    }
+    .socialLinksIcon{
+        position: fixed;
+        transform: translateY(-50%);
+    }
+    .socialLinksIcon img{
+        width: 20px;
+        display:block;
+        cursor: pointer;
+        margin-left: 8px;
+    }
+    .logos{
+        margin-left: 45px;
+        margin-right: 0px;
+    }
+    .logo{
+        margin-top: 50px;
+        width: 100px;
+        cursor: pointer;
+    }
+    .bannerText{
+        max-width: 400px;
+        margin-top: 60px;
+        margin-right: 20px;
+    }
+    .bannerText h1{
+        font-size: 28px;
+    }
+    #about{
+        padding-top: 20px;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .about-left-col{
+        flex-basis: 0%;
+    }
+    .about-left-col img{
+        width: 100%;
+    }
+    .about-rightSection{
+        flex-basis: 0%;
+    }
+    .aboutText{
+        text-align: center;
+        display: inline-block;
+        max-width: 400px;
+        margin-left: 100px;
+    }
+    .aboutText h1{
+        font-size: 25px;
+    }
+    .aboutText h4{
+        font-size: 16px;
+    }
+    .aboutText p{
+        padding: 10px 0px;
+        color: gray;
+    }
+   
+    #contact{
+        padding: 10px 10px;
+        margin-left: 10px;
+    }
+    .contactRow{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .conatctCollumLeft{
+        flex-basis: 50%;
+        margin-left: 40px;
+    }
+    .conatctCollumRight{
+        flex-basis: 0%;
+    }
+    .conatctCollumRight img{
+        width: 300px;
+        margin-left: 20px;
+        margin-top: 50px;
+    }
+    form{
+        max-width: 400px;
+        padding: 15px 0;
+        margin-left: 0px;
+        text-align: center;
+    }
+    form input{
+        outline: none;
+        width: 100%;
+        margin: 10px 0;
+        padding: 11px 15px;
+        border: 1px solid orangered; 
+        border-radius: 40px; 
+        font-size: 12px; 
+
+    } 
+    .inputTeam{
+        position: relative;
+    }
+    label{
+        position: absolute;
+        top: 5px;
+        left: 20px;
+        font-size: 10px;
+        background-color: white;
+        padding: 0 6px;
+        color: orangered;
+    }
+    .fromText{
+        text-align: center;
+        width: 240px;
+        font-size: 20px;
+    }
+    #footer{
+        padding-top: 100px;
+    }
+    .containerFooter{
+        padding: 0 10px;
+    }
+    .footerRow{
+        display: block;
+    }
+    .footerColum-left{
+        display: block;
+        flex-basis: 0%;
+        text-align: center;
+    }
+    .footerColum-right{
+        flex-basis: 0%;
+    }
+    .footerText{
+        margin-top: 60px;
+    }
+    .footerColum-right{
+        margin-top: 60px;
+        text-align: center;
+    }
+    .logosFotters{
+        margin:10px 10px;
+        cursor: pointer;
+    }
+    .footerText small:hover{
+        color: orange;
+        cursor: pointer;
+    }
+    .footerText h4:hover{
+        color: orangered;
+        cursor: pointer;
+    }
+    
+#feachers{
+    padding-top: 100px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+.feachers-row{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    flex-wrap: wrap;
+}
+.colum{
+   flex-basis: 25%;
+   text-align: center;
+   cursor: pointer;
+   width: 200px;
+}
+.colum h1{
+    font-size: 25px;
+}
+.colum img{
+    width: 200px;
+}  
 
 
-
-
-
+}
+  
