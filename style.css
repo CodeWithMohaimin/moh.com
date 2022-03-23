@@ -308,8 +308,6 @@ label{
     cursor: pointer;
 }
 
-
-
 /*============ media quary ============ */
 @media only screen and (max-width:777px){
     .banner{
@@ -320,13 +318,13 @@ label{
         transform: translateY(-50%);
     }
     .socialLinksIcon img{
-        width: 20px;
+        width: 15px;
         display:block;
         cursor: pointer;
-        margin-left: 8px;
+        margin-left: 5px;
     }
     .logos{
-        margin-left: 45px;
+        margin-left: 40px;
         margin-right: 0px;
     }
     .logo{
@@ -335,33 +333,31 @@ label{
         cursor: pointer;
     }
     .bannerText{
-        max-width: 400px;
+        max-width: 300px;
         margin-top: 60px;
-        margin-right: 20px;
     }
     .bannerText h1{
-        font-size: 28px;
+        font-size: 25px;
     }
     #about{
         padding-top: 20px;
-        display: flex;
-        align-items: center;
-        flex-wrap: wrap;
+        margin-top: 200px
     }
     .about-left-col{
-        flex-basis: 0%;
+        flex-basis: 90%;
     }
     .about-left-col img{
-        width: 100%;
+        margin-top: 100px;
     }
     .about-rightSection{
-        flex-basis: 0%;
+        flex-basis: 100%;
     }
     .aboutText{
+        margin-top: 50px;
         text-align: center;
-        display: inline-block;
-        max-width: 400px;
-        margin-left: 100px;
+        display: block;
+        margin-left: 20px;
+        margin-right: 20px;
     }
     .aboutText h1{
         font-size: 25px;
@@ -373,32 +369,21 @@ label{
         padding: 10px 0px;
         color: gray;
     }
-   
     #contact{
-        padding: 10px 10px;
-        margin-left: 10px;
-    }
-    .contactRow{
-        display: flex;
-        align-items: center;
-        flex-wrap: wrap;
+        padding: 0px 0px;
+        margin-left: 0px;
     }
     .conatctCollumLeft{
-        flex-basis: 50%;
-        margin-left: 40px;
-    }
-    .conatctCollumRight{
-        flex-basis: 0%;
+        margin-left: 25px;
     }
     .conatctCollumRight img{
         width: 300px;
-        margin-left: 20px;
+        margin-left: 10px;
         margin-top: 50px;
     }
     form{
         max-width: 400px;
         padding: 15px 0;
-        margin-left: 0px;
         text-align: center;
     }
     form input{
@@ -409,7 +394,6 @@ label{
         border: 1px solid orangered; 
         border-radius: 40px; 
         font-size: 12px; 
-
     } 
     .inputTeam{
         position: relative;
@@ -464,32 +448,45 @@ label{
         color: orangered;
         cursor: pointer;
     }
-    
-#feachers{
-    padding-top: 100px;
+ #feachers{
+    padding-top: 40px;
     padding-bottom: 10px;
     display: flex;
     justify-content: center;
 }
 .feachers-row{
     display: flex;
-    justify-content: space-around;
     align-items: center;
-    margin: auto;
     flex-wrap: wrap;
 }
 .colum{
-   flex-basis: 25%;
+   flex-basis: 100%;
    text-align: center;
    cursor: pointer;
    width: 200px;
+   margin-bottom: 50px;
 }
 .colum h1{
-    font-size: 25px;
+    font-size: 20px;
 }
 .colum img{
-    width: 200px;
-}  
+    width: 100px;
+}
+
+#videoTopPaddingText{
+    text-align: center;
+    padding: 50px 20px 0 20px;
+}
+#videoTopPaddingText h1{
+    font-size: 23px;
+}
+#video{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    margin: 50px auto;
+}
+
 
 
 }
