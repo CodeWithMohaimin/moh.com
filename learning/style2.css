@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* font-family: 'Open Sans', sans-serif; */
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    text-align: center;
+    margin: 100px;
+    font-size: 23px;
+    color: orange;
+}
+.parentBlog{
+    margin: 0 300px;
+    background-color: beige;
+    padding: 100px;
+    
+}
+.o1text{
+    color: cadetblue;
+}
+.o1text h2{
+    margin: 30px 0;
+    color: black;
+    font-weight: 400;
+    font-size: 20px;
+}
+.o1text h3{
+    margin: 30px 0;
+    color: black;
+    font-weight: 400;
+    font-size: 20px;
+}
+.o1text h4{
+    margin-top: 37px;
+    font-size: 18px;
+    color: orange;
+}
+.o1text ol{
+    margin-left: 60px;
+    margin-top: 30px;
+}
+.o2text h1{
+    margin-left: -20px;
+    font-size: 38px;
+    color: orangered;
+    margin-top: 30px;
+}
+.o2text p{
+    margin-top: 30px;
+}
+
+/*========== end the blogs-------- */
+
+.end{
+    margin: 50px 200px;
+    text-align: right;
+}
+.end p{
+    color: orange;
+}
+.end h1{
+    color: orange;
+}
+footer{
+    margin: 50px 200px;
+    text-align: right;
+    color: orange;
+}
+.logos img{
+    margin: 10px;
+}
+
+
+/*============ media quary ============ */
+@media only screen and (max-width:999px){
+    header{
+        text-align: center;
+        margin: 0px;
+        margin-top: 30px;
+        margin-bottom: 35px;
+        font-size: 10px;
+        color: orange;
+    }
+    .parentBlog{
+        margin: 0 0px;
+        background-color: white;
+        padding: 10px;
+        font-size: 10px;
+        font-weight: 300;
+    }
+    .o1text{
+        color: cadetblue;
+    }
+    .o1text h2{
+        margin: 30px 0;
+        color: black;
+        font-weight: 400;
+        font-size: 20px;
+    }
+    .o1text h3{
+        margin: 30px 0;
+        color: black;
+        font-weight: 400;
+        font-size: 20px;
+    }
+    .o1text h4{
+        margin-top: 37px;
+        font-size: 17px;
+        color: orange;
+    }
+    .o1text ol{
+        margin-left: 20px;
+        margin-top: 30px;
+        font-size: 12px;
+    }
+    .o2text h1{
+        margin-left: 20px;
+        font-size: 22px;
+        color: orangered;
+        margin-top: 30px;
+    }
+    .o2text p{
+        margin-top: 30px;
+        font-size: 16px;
+    }
+    
+    /*========== end the blogs-------- */
+    
+    .end{
+        margin: 50px 10px;
+        text-align: right;
+    }
+    .end p{
+        color: orange;
+    }
+    .end h1{
+        color: orange;
+        font-size: 22px;
+    }
+    footer{
+        margin: 50px 10px;
+        text-align: right;
+        color: orange;
+    }
+    .logos img{
+        margin: 10px;
+    }
+    
+}
