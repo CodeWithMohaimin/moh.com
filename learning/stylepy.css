@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.parentDiv{
+    margin: 0px 300px 0px 300px;
+    background-color: black;
+    color: white;
+    padding-bottom: 50px;
+}
+header{
+    text-align: center;
+    padding: 20px 0;
+    color: aqua;
+}
+.oo p{
+    padding: 20px 30px;
+}
+.oo h2{
+    color: orange;
+    margin: 20px;
+}
+.oo ol{
+    margin-left: 30px;
+    margin-right: 30px;
+    color: palevioletred;
+    padding-bottom: 30px;
+}
+.o1 h1{
+    margin-left: 10px;
+    margin-left: 10px;
+    color: aqua;
+    margin-bottom: 20px;
+}
+.o1 p{
+    margin:0 20px;
+}
+.o1 h2{
+    color: orange;
+    margin: 20px 10px;
+}
+ /* now o2  */
+ .o2 h1{
+     margin-top: 50px;
+     margin-bottom: 20px;
+ }
+ .o2 h3{
+     text-align: center;
+     margin-top: 30px;
+     color: orange;
+ }
+ .stackoverflowImage{
+     display: flex;
+     justify-content: center;
+     margin: 60px;
+ }
+ footer{
+    margin: 50px 200px;
+    text-align: right;
+    color: orange;
+}
+.logos img{
+    margin: 10px;
+    background-color: white;
+}
+
+
+
+
+
+
+
+
+
+/*============ media quary ============ */
+@media only screen and (max-width:999px){
+    .parentDiv{
+        margin: 0px 0px 0px 0px;
+        background-color: black;
+        color: white;
+        padding-bottom: 50px;
+    }
+    header{
+        text-align: center;
+        padding: 20px 0;
+        color: aqua;
+        font-size: 16px;
+    }
+    .oo p{
+        padding: 20px 30px;
+    }
+    .oo h2{
+        color: orange;
+        margin: 20px;
+        text-align: center;
+    }
+    .oo ol{
+        margin-left: 50px;
+        margin-right: 30px;
+        color: palevioletred;
+        padding-bottom: 30px;
+    }
+    .o1 h1{
+        margin-left: 10px;
+        margin-left: 10px;
+        color: aqua;
+        margin-bottom: 20px;
+        font-size: 19px;
+    }
+    .o1 p{
+        margin:0 20px;
+    }
+    .o1 h2{
+        color: orange;
+        margin: 20px 10px;
+        text-align: center;
+    }
+     /* now o2  */
+     .o2 h1{
+         margin-top: 50px;
+         margin-bottom: 20px;
+     }
+     .o2 h3{
+         text-align: center;
+         margin-top: 30px;
+         color: orange;
+     }
+     .stackoverflowImage{
+         display: flex;
+         justify-content: center;
+         margin-left: 50px;
+     }
+     .stimg{
+         width: 100%;
+     }
+     footer{
+        margin: 50px 10px 20px;
+        text-align: right;
+        color: orange;
+       
+    }
+    .logos img{
+        margin: 10px;
+        background-color: white;
+    }
+    .logos p{
+        text-align: right;
+        font-size: 12px;
+    }
+    
+}
