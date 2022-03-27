@@ -2,11 +2,13 @@
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
-  
 }
 .banner{
     height: 100vh;
     background-image: url("image/bannerx\ \(1\).png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 /* =============================logo======================== */
 .logos{
