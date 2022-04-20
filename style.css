@@ -72,7 +72,8 @@
     background-color: orange;
     position: fixed;
     right: -250px;
-    top: 0;
+    top: 0px;
+ 
     z-index: 2;
     transition: all .5s ease;
 }
